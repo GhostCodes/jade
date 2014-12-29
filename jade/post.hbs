@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="{{asset "stylesheets/bootstrap.min.css"}}">
+    <link rel="stylesheet" href="{{asset "stylesheets/bootstrap-theme.min.css"}}">
+
+    <!-- lightbox for photos -->
+    <link rel="stylesheet" href="{{asset "stylesheets/lightbox.css"}}">
+
+    <!-- own stylesheet for general stuff -->
+    <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
+
+        <!-- css for the 'boxes' -->
+    <link rel="stylesheet" href="{{asset "stylesheets/card.css"}}">
+
+      <!-- jQuery, font-awesome and more -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{asset "javascripts/bootstrap.min.js"}}"></script>
+
+    <!-- lightbox for photo  -->
+    <script src="{{asset "javascripts/lightbox.min.js"}}"></script>
+</head>
+  <body>
+   <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
+                    <div id="header">
+                              <img src="{{@blog.cover}}" >
+                      </div>
+                    <nav class="navbar navbar-default" role="navigation">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="{{@blog.url}}">Home</a></li>
+                                <li><a href="#aboutModal2" data-toggle="modal" data-target="#myModal2">About this theme</a></li>
+                            </ul>
+                      </nav>
+                    {{#post}}
+                                <div class="box-main">
+                                    <h4 class="text-center box-footer"><i class="fa fa-chevron-right fa-1x"></i>{{title}} <p class="text-right">{{date format='YYYY-MM-DD'}}</p></h4>
+                                        <p class="text-justify">{{content}}...
+                                        </p>
+                                </div>
+                    {{/post}}
+                </div>
+                    <!-- column 1 end! -->
+                <div id="sidebar">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                          <div id="footer-coding">
+                                               <a href="http://www.github.com/hxkclan" target="_blank"><i class="fa fa-github fa-4x"></i></a>
+                                               <a href="http://www.bitbucket.org/hxkclan" target="_blank"><i class="fa fa-bitbucket fa-4x"></i></a>
+                                              <p class="p-sidebar">Programming with me? Check out these profiles. </p>
+                          </div>
+                          <div id="footer-social">
+                                               <a href="http://twitter.com/hxkclan" target="_blank"><i class="fa fa-twitter fa-4x"></i></a>
+                                               <a href="http://facebook.com/mboumann" target="_blank"><i class="fa fa-facebook fa-4x"></i></a>
+                                               <a href="http://plus.google.com/+mboumann" target="_blank"><i class="fa fa-google-plus fa-4x"></i></a>
+                                              <a href="https://www.linkedin.com/profile/view?id=195520301" target="_blank"><i class="fa fa-linkedin fa-4x"></i></a>
+                                             <p class="p-sidebar">Prefer a bit more personal contact? Try my social media profiles.</p>
+                          </div>
+                          <div id="backtotop">
+                                <a href="#top" class="navbar-btn btn-danger btn pull-right">To top</a>
+                          </div>
+
+                            <p class="text-right p-sidebar">© 2014 - Michael Boumann.
+                            </p>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <!-- Modal about site -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-chevron-right fa-1x"></i>About this site</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="panel">
+                        <p class="p-sidebar">This theme uses <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> with <a href="http://jquery.com/" target="_blank">JQuery</a> for stuff like the modals and basic design elements. <a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank">Lightbox2</a> is also used for viewer bigger versions of images.
+                        </p>
+                </div>
+              </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- container fluid END! -->
+
+  </body>
+</html>

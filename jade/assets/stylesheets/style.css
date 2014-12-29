@@ -1,0 +1,104 @@
+/* general stuff */
+html body {
+      background-color: #e5e5e5;
+      font-family: 'Roboto', sans-serif;
+}
+
+.p-sidebar {
+  margin: 5px;
+  color:white;
+}
+
+/* dont expand images too far in excerpt */
+.box-main img {
+    width: 100%;
+}
+
+.container-fluid{
+    margin:0;
+    height: 100%;
+    background-color: #e5e5e5;
+    margin-bottom:30px;
+}
+
+.container{
+    width: 100% !important;
+}
+
+a i {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+a i:hover {
+  background: #00A329;
+}
+
+/*basic header */
+#header {
+    background-color: black;
+    height: 200px;
+    margin: 0;
+}
+
+#header img {
+    width: 100%;
+    height:200px;
+    overflow: hidden;
+}
+
+#backtotop{
+    position:absolute;
+}
+
+#footer-coding{
+
+}
+
+
+#footer-social{
+
+}
+
+.navbar-btn {
+  margin-top: 0px !important;
+}
+
+/* home page look and feel */
+.row {
+  background:black;
+}
+
+.box-footer{
+    background-color: #00A329;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    height: 55px;
+}
+
+/* modal stuff */
+.modal-header {
+      background-color: #00A329;
+      color: #ffffff;
+}
+
+.modal-footer {
+      background-color: #00A329;
+      color: #ffffff;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: black;
+  border-color: #000;
+}
