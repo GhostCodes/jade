@@ -2,9 +2,12 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
                                     <article>
-                                    <h4 class="text-left-title modal-post"></i>{{title}}</h4>
-                                    <p class="text-right">{{date format='YYYY-MM-DD'}}</p>
+                                    <h4 class="text-left-title modal-post"></i><a href="{{url}}">{{title}}</a></h4>
+                                    <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                         <p class="text-justify">{{content}}</p><br />
+                                        {{#if tags}}
+                                            Tags: {{tags separator=" | "}}
+                                            {{/if}}
                                 </article>
                                 <hr>
                     {{/foreach}}
