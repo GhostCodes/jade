@@ -4,18 +4,9 @@ html body {
       font-family: 'Roboto', sans-serif;
 }
 
-.p-sidebar {
-  margin: 5px;
-  color:white;
-}
-
-/* dont expand images too far in excerpt */
-.box-main img {
-    width: 100%;
-}
-
 .container-fluid{
     margin:0;
+    padding-top: 200px;
     height: 100%;
     background-color: #e5e5e5;
     margin-bottom:30px;
@@ -23,6 +14,11 @@ html body {
 
 .container{
     width: 100% !important;
+}
+
+p {
+    margin-left: 40px;
+    margin-right:40px;
 }
 
 a i {
@@ -45,9 +41,18 @@ a i:hover {
 
 /*basic header */
 #header {
-    background-color: black;
+    position: fixed;
+    background-color: #00A329;
+    color: #ffffff;
+    width: 100%;
     height: 200px;
     margin: 0;
+}
+
+.blogtitle {
+font-size: 55px;
+padding-top: 90px;
+margin-left: 20%;
 }
 
 #header img {
@@ -60,45 +65,29 @@ a i:hover {
     position:absolute;
 }
 
-#footer-coding{
-
-}
-
-
-#footer-social{
-
-}
-
-.navbar-btn {
-  margin-top: 0px !important;
-}
-
 /* home page look and feel */
 .row {
-  background:black;
+  margin-left: 20%;
+  margin-right:20%;
 }
 
-.box-footer{
-    background-color: #00A329;
-    color: #ffffff;
-    padding: 10px;
-    width: 100%;
-    height: 55px;
+.fa-2x {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 /* modal stuff */
-.modal-header {
+.modal-post {
       background-color: #00A329;
       color: #ffffff;
+      height: 100px;
 }
 
-.modal-footer {
+/* read more link */
+.readmore {
       background-color: #00A329;
       color: #ffffff;
-}
-
-.navbar-default {
-  background-image: none;
-  background-color: black;
-  border-color: #000;
+      padding: 10px;
+       text-decoration: none;
 }
