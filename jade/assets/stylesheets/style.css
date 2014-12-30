@@ -102,6 +102,10 @@ margin-left: 15%;
       text-align: center;
 }
 
+.readmore-js-toggle:hover {
+    color: white;
+}
+
 /* dont expand images too far in excerpt */
 .box-main img {
     width: 100%;
