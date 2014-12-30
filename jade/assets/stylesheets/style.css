@@ -19,6 +19,12 @@ p {
     margin-right:40px;
 }
 
+.text-left-title {
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 28px;
+}
+
 a i {
     background: #000;
     color: #fff;
