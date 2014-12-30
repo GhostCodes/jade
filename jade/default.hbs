@@ -32,10 +32,7 @@
 </head>
 <body class="{{body_class}}">
 
-  <div id="header">
-        <p class="blogtitle"><a href="{{@blog.url}}" id="headerurl">{{@blog.title}}</a></p>
-         <div id="about"><a href="#aboutModal2" data-toggle="modal" data-target="#myModal2"><i class="fa fa-question fa-4x"></i></a></div>
-    </div>
+{{> header}}
 
    <div class="container-fluid">
             <div class="row">
@@ -75,6 +72,9 @@
     </div>
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
+
+<!-- google analytics -->
+{{> analytics}}
 
     <script src="{{asset "javascripts/bootstrap.min.js"}}"></script>
     <script src="{{asset "javascripts/readmore.min.js"}}"></script>
