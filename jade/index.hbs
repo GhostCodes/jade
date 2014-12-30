@@ -6,7 +6,9 @@
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                         <p class="text-justify">{{content}}</p><br />
                                         {{#if tags}}
+                                        <div class="tags">
                                             Tags: {{tags separator=" | "}}
+                                        </div>
                                             {{/if}}
                                 </article>
                                 <hr>
