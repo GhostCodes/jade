@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="{{asset "stylesheets/bootstrap.min.css"}}">
+    <link rel="stylesheet" href="{{asset "stylesheets/bootstrap-theme.min.css"}}">
+
+    <!-- lightbox for photos -->
+    <link rel="stylesheet" href="{{asset "stylesheets/lightbox.css"}}">
+
+    <!-- own stylesheet for general stuff -->
+    <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
+
+        <!-- css for the 'boxes' -->
+    <link rel="stylesheet" href="{{asset "stylesheets/card.css"}}">
+
+      <!-- jQuery, font-awesome and more -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{asset "javascripts/bootstrap.min.js"}}"></script>
+
+    <!-- lightbox for photo  -->
+    <script src="{{asset "javascripts/lightbox.min.js"}}"></script>
+
+        {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+  <body>
+
+                          <div id="header">
+                                 <p class="blogtitle">{{@blog.title}}</p>
+                            </div>
+   <div class="container-fluid">
+            <div class="row">
+                <div>
+
+
+       {{{body}}}
+
+                </div>
+                    <!-- column 1 end! -->
+
+            </div>
+    </div>
+</div><!-- container fluid END! -->
+  </body>
+</html>
