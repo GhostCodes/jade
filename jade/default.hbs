@@ -11,7 +11,6 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="{{asset "stylesheets/bootstrap.min.css"}}">
-    <link rel="stylesheet" href="{{asset "stylesheets/bootstrap-theme.min.css"}}">
 
     <!-- own stylesheet for general stuff -->
     <link rel="stylesheet" href="{{asset "stylesheets/style.css"}}">
@@ -27,7 +26,7 @@
   <body>
 
   <div id="header">
-         <p class="blogtitle">{{@blog.title}}</p>
+        <p class="blogtitle"><a href="{{@blog.url}}">{{@blog.title}}</a></p>
          <div id="about"><a href="#aboutModal2" data-toggle="modal" data-target="#myModal2"><i class="fa fa-question"></i></a></div>
     </div>
 
