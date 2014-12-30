@@ -1,6 +1,5 @@
-jade/partials/disqus.hbs
-jade/partials/analytics.hbs
-
+/partials/disqus.hbs
+/partials/analytics.hbs
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 *.iml
