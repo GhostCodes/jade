@@ -92,7 +92,7 @@ hr {
 }
 
 /* read more link */
-.readmore-js-toggle {
+.readmore {
     color: #fff;
     background-color: #1e90ff;
       padding: 10px;
@@ -100,7 +100,7 @@ hr {
       margin-bottom: 80px;
 }
 
-.readmore-js-toggle:hover {
+.readmore:hover {
     color: #fff;
     background-color: #1e90ff;
 }
