@@ -1,11 +1,9 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
-                                <div class="box-main">
                                     <article>
                                     <h4 class="text-left-title modal-post"></i>{{title}}</h4>
                                     <p class="text-right">{{date format='YYYY-MM-DD'}}</p>
                                         <p class="text-justify">{{content}}</p><br />
-                                </div>
                                 </article>
                     {{/foreach}}
