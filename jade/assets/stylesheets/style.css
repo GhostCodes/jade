@@ -97,12 +97,12 @@ hr {
     background-color: #1e90ff;
       padding: 10px;
       text-align: center;
-      margin-bottom: 80px;
+      width: 100%;
 }
 
 .readmore:hover {
+    text-decoration: none;
     color: #fff;
-    background-color: #1e90ff;
 }
 
 .postfooter{
