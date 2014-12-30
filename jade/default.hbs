@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
+
+    {{! Document Settings }}
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    {{! Responsive Meta Tags }}
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
@@ -23,12 +30,9 @@
         {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
-  <body>
+<body class="{{body_class}}">
 
-  <div id="header">
-        <p class="blogtitle"><a href="{{@blog.url}}" id="headerurl">{{@blog.title}}</a></p>
-         <div id="about"><a href="#aboutModal2" data-toggle="modal" data-target="#myModal2"><i class="fa fa-question"></i></a></div>
-    </div>
+{{> header}}
 
    <div class="container-fluid">
             <div class="row">
@@ -42,38 +46,22 @@
 
             </div>
     </div>
+
+{{#if pagination}}
     <div id="pagination">
-    {{pagination}}
+{{{pagination}}}
     </div>
+{{/if}}
+
 
 </div><!-- container fluid END! -->
-
-    <!-- Modal about site -->
-    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <h4 class="text-left-title modal-post"></i>About Jade</h4>
-                <div class="modal-body">
-                  <div class="panel">
-                        <p>The theme currently used is called <a href="https://github.com/hxkclan/jade" target="_blank">Jade</a>. Jade uses elements from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> with <a href="http://jquery.com/" target="_blank">JQuery</a> for modals and the (fluid) website layout. Jade also uses <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font-Awesome</a> for the scalable icons and <a href="https://github.com/jedfoster/Readmore.js" target="_blank">Readmore.js</a> to expand/retract posts.
-                        </p>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
+{{> infomodal}}
 <!-- ghost footer includes jquery -->
 {{ghost_foot}}
 
+<!-- google analytics -->
+{{> analytics}}
+
     <script src="{{asset "javascripts/bootstrap.min.js"}}"></script>
-    <script src="{{asset "javascripts/readmore.min.js"}}"></script>
-
-        <script>
-                $('article').readmore({
-                  speed: 75,
-                  maxHeight: 250
-                });
-
-    </script>
   </body>
 </html>

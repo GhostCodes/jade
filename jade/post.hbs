@@ -1,0 +1,36 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+                {{#post}}
+                                    <article>
+                                    <h4 class="text-left-title modal-post"></i>{{title}}
+                                    <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    {{#if tags}}
+                                        <p class="text-right postdate">
+                                        Tags: {{tags separator=" | "}}
+                                        </p>
+                                        {{/if}}
+                                    </h4>
+
+
+                                        <p class="text-justify">{{content}}</p><br />
+                                        <article>
+                                        {{#if author}}
+                                            <footer class="postfooter">
+                                            <address itemscope itemtype="http://schema.org/Person">
+                                            {{#if author.image}}
+                                            <div class="authorimage_uber"><img src="{{author.image}}" itemprop="image" /></div>
+                                            {{/if}}
+                                            <h4 class="authorname_uber"><span itemprop="author">{{author.name}}</span></h4>
+                                            {{#if author.website}}
+                                            <div class="authorwebsite_uber"><a href="{{author.website}}" itemprop="url">{{author.website}}</a></div>
+                                            {{/if}}
+                                            </address>
+                                            <div class="authorbio_uber">
+                                            <p>{{author.bio}}</p>
+                                            </div>
+                                            </footer>
+                                        {{/if}}
+
+                                        {{> disqus}}
+                                <hr>
+                {{/post}}
