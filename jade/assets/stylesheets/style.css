@@ -19,12 +19,8 @@ p {
     margin-right:40px;
 }
 
-a {
+#headerurl{
     color: white;
-}
-
-a:hover {
-    color:white;
 }
 
 .text-left-title {
