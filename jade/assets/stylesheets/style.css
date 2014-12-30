@@ -71,14 +71,14 @@ width: 150%;
 .modal-post {
     background-color: #1e90ff;
     color: #ffffff;
-      height: 100px;
-      margin-top:0px;
+    height: 100px;
+     margin-top:15px;
     overflow: hidden;
 }
 
 hr {
         margin-bottom: 65px;
-        border-width: 5px;
+        border-width: 3px;
         color: #708090;
 }
 
@@ -88,7 +88,7 @@ hr {
     background-color: #1e90ff;
       padding: 10px;
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 80px;
 }
 
 .readmore-js-toggle:hover {
