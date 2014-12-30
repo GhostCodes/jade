@@ -28,6 +28,10 @@ p {
     font-size: 28px;
 }
 
+.text-left-title a {
+        color: white;
+}
+
 /*basic header */
 #header {
     position: fixed;
@@ -98,7 +102,15 @@ hr {
 
 .readmore-js-toggle:hover {
     color: #fff;
-        background-color: #1e90ff;
+    background-color: #1e90ff;
+}
+
+.postfooter{
+    background: #1e90ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
 }
 
 .older-posts {
