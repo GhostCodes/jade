@@ -17,8 +17,7 @@ Jade uses the following libraries;
 #Preview
 This theme is currently under (heavy) development. So it changes, stuff gets added etc. The master branch usually has a version that is at least usable. 
 
-![Jade Preview - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-30125048.png)
-![Jade Preview - Post expanded](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-30125134.png)
+![Jade Preview v0.3 - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-30202201.png)
 
 #Use
 - Download the package
