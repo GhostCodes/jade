@@ -3,12 +3,12 @@
                 {{#post}}
                                     <h4 class="text-left-title modal-post"></i>{{title}}</h4>
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    {{#if tags}}
+                                        <p class="text-right postdate">
+                                        Tags: {{tags separator=" | "}}
+                                        </p>
+                                        {{/if}}
                                         <p class="text-justify">{{content}}</p><br />
-                                        {{#if tags}}
-                                        <div class="tags">
-                                            Tags: {{tags separator=" | "}}
-                                        </div>
-                                            {{/if}}
 
                                         {{#if author}}
                                             <footer class="postfooter">
