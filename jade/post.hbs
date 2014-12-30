@@ -9,7 +9,6 @@
                                         </p>
                                         {{/if}}
                                         <p class="text-justify">{{content}}</p><br />
-
                                         {{#if author}}
                                             <footer class="postfooter">
                                             <address itemscope itemtype="http://schema.org/Person">
@@ -26,5 +25,7 @@
                                             </div>
                                             </footer>
                                         {{/if}}
+
+                                        {{> disqus}}
                                 <hr>
                 {{/post}}
