@@ -4,12 +4,12 @@
                                     <article>
                                     <h4 class="text-left-title modal-post"></i><a href="{{url}}">{{title}}</a></h4>
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
+                                    {{#if tags}}
+                                        <p class="text-right postdate">
+                                        Tags: {{tags separator=" | "}}
+                                        </p>
+                                        {{/if}}
                                         <p class="text-justify">{{content}}</p><br />
-                                        {{#if tags}}
-                                        <div class="tags">
-                                            Tags: {{tags separator=" | "}}
-                                        </div>
-                                            {{/if}}
                                 </article>
                                 <hr>
                     {{/foreach}}
