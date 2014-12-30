@@ -4,5 +4,8 @@
                                     <h4 class="text-left-title modal-post"></i>{{title}}</h4>
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                         <p class="text-justify">{{content}}</p><br />
+                                        {{#if tags}}
+                                            Tags: {{tags separator=" | "}}
+                                            {{/if}}
                                 <hr>
                 {{/post}}
