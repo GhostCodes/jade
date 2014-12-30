@@ -76,6 +76,11 @@ width: 150%;
     overflow: hidden;
 }
 
+.postdate {
+    color:grey;
+    font-size: 18px;
+}
+
 hr {
         margin-bottom: 65px;
         border-width: 3px;
