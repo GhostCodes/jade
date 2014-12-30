@@ -2,8 +2,10 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
                                 <div class="box-main">
-                                    <h4 class="text-left modal-post"><i class="fa fa-chevron-right fa-2x"></i>{{title}} <p class="text-right">{{date format='YYYY-MM-DD'}}</p></h4>
-                                        <p class="text-justify">{{excerpt}}... </p><br />
-                                        <p class="text-right"><a class="readmore" href="./{{{url}}}">Read more</a>
+                                    <article>
+                                    <h4 class="text-left-title modal-post"></i>{{title}}</h4>
+                                    <p class="text-right">{{date format='YYYY-MM-DD'}}</p>
+                                        <p class="text-justify">{{content}}</p><br />
                                 </div>
+                                </article>
                     {{/foreach}}
