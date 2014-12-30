@@ -56,7 +56,7 @@ a i:hover {
 .blogtitle {
 font-size: 55px;
 padding-top: 90px;
-margin-left: 20%;
+margin-left: 15%;
 }
 
 #header img {
@@ -77,15 +77,8 @@ margin-left: 20%;
 
 /* home page look and feel */
 .row {
-  margin-left: 20%;
-  margin-right:20%;
-}
-
-/* aligning the font-awesome icons*/
-.fa-2x {
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 10px;
+  margin-left: 15%;
+  margin-right:15%;
 }
 
 /* modal stuff */
@@ -94,6 +87,7 @@ margin-left: 20%;
       color: #ffffff;
       height: 100px;
       margin-top:0px;
+          overflow: hidden;
 }
 
 /* read more link */
@@ -101,9 +95,8 @@ margin-left: 20%;
       background-color: #00A329;
       color: white;
       padding: 10px;
-       text-decoration: none;
+      text-align: center;
 }
-
 
 /* dont expand images too far in excerpt */
 .box-main img {
