@@ -29,10 +29,10 @@ This theme is currently under (heavy) development. So it changes, stuff gets add
 
 #Customization - partials
 ##Disqus
-To use disqus go to the jade/partials/disqus.hbs. Replace the code inside with your own code.
+To use disqus; create jade/partials/disqus.hbs. Parse the full 'disqus universal' code in there.
 
 ##Google Analytics
-To use Google Analytics, please replace the code with your own in jade/partials/analytics.hbs
+To use Google Analytics, please create a file (jade/partials/analytics.hbs) and parse your full script code in it. 
 
 ##Header 
 The header.hbs partial (jade/partials/header.hbs) basically consists of two parts. The first p tag is the actual header with the blog title. The second line (about div) involves a call to the modal (question mark top right), so you could remove it, but i would appreciate it if you would keep it there for reference. 
