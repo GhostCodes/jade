@@ -86,18 +86,26 @@ width: 150%;
 }
 
 hr {
+        margin-top: 25px;
         margin-bottom: 65px;
         border-width: 3px;
         color: #708090;
 }
 
+article {
+    margin-bottom: 35px;
+}
+
 /* read more link */
 .readmore {
+    position: relative;
+    float: right;
     color: #fff;
     background-color: #1e90ff;
       padding: 10px;
+      margin-top: -45px;
       text-align: center;
-      width: 100%;
+
 }
 
 .readmore:hover {
