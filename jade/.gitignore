@@ -1,5 +1,8 @@
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+jade/partials/disqus.hbs
+jade/partials/analytics.hbs
 
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 *.iml
 
 ## Directory-based project format:
