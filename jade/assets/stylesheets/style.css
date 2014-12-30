@@ -76,9 +76,15 @@ width: 150%;
     overflow: hidden;
 }
 
+hr {
+        margin-top: 70px;
+        margin-bottom: 85px;
+        border-width: 5px;
+        color: #708090;
+}
+
 /* read more link */
 .readmore-js-toggle {
-    border-bottom: 1px solid #708090;
       color: #00bfff;
       padding: 10px;
       text-align: center;
