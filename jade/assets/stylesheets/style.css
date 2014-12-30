@@ -157,8 +157,7 @@ article {
 }
 
 .older-posts {
-    border-bottom: 1px solid #1e90ff;
-      color: #00A329;
+      color: #1e90ff;
       padding: 10px;
 }
 
@@ -168,8 +167,7 @@ article {
 }
 
 .newer-posts {
-    border-bottom: 1px solid #1e90ff;
-      color: #00A329;
+      color: #1e90ff;
       padding: 10px;
 }
 
