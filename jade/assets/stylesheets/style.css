@@ -77,15 +77,15 @@ width: 150%;
 }
 
 hr {
-        margin-top: 70px;
-        margin-bottom: 85px;
+        margin-bottom: 65px;
         border-width: 5px;
         color: #708090;
 }
 
 /* read more link */
 .readmore-js-toggle {
-      color: #00bfff;
+    color: #fff;
+    background-color: #1e90ff;
       padding: 10px;
       text-align: center;
       margin-bottom: 50px;
