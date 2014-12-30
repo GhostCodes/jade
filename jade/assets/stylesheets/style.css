@@ -69,7 +69,8 @@ width: 150%;
 
 /* modal stuff */
 .modal-post {
-      color: #00bfff;
+    background-color: #1e90ff;
+    color: #ffffff;
       height: 100px;
       margin-top:0px;
     overflow: hidden;
