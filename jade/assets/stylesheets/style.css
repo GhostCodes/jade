@@ -98,7 +98,6 @@ article {
 
 /* read more link */
 .readmore {
-    position: relative;
     float: right;
     color: #fff;
     background-color: #1e90ff;
