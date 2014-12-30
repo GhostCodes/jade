@@ -7,5 +7,22 @@
                                         {{#if tags}}
                                             Tags: {{tags separator=" | "}}
                                             {{/if}}
+
+                                        {{#if author}}
+                                            <footer class="postfooter_uber">
+                                            <address itemscope itemtype="http://schema.org/Person">
+                                            {{#if author.image}}
+                                            <div class="authorimage_uber"><img src="{{author.image}}" itemprop="image" /></div>
+                                            {{/if}}
+                                            <h4 class="authorname_uber"><span itemprop="author">{{author.name}}</span></h4>
+                                            {{#if author.website}}
+                                            <div class="authorwebsite_uber"><a href="{{author.website}}" itemprop="url">{{author.website}}</a></div>
+                                            {{/if}}
+                                            </address>
+                                            <div class="authorbio_uber">
+                                            <p>{{author.bio}}</p>
+                                            </div>
+                                            </footer>
+                                        {{/if}}
                                 <hr>
                 {{/post}}
