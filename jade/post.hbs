@@ -2,13 +2,16 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                 {{#post}}
                                     <article>
-                                    <h4 class="text-left-title modal-post"></i>{{title}}</h4>
+                                    <h4 class="text-left-title modal-post"></i>{{title}}
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">
                                         Tags: {{tags separator=" | "}}
                                         </p>
                                         {{/if}}
+                                    </h4>
+
+
                                         <p class="text-justify">{{content}}</p><br />
                                         <article>
                                         {{#if author}}

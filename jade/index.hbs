@@ -2,13 +2,14 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
                                     <article>
-                                    <h4 class="text-left-title modal-post"></i><a href="{{url}}">{{title}}</a></h4>
+                                    <h4 class="text-left-title modal-post"></i><a href="{{url}}">{{title}}</a>
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">
                                         Tags: {{tags separator=" | "}}
                                         </p>
                                         {{/if}}
+                                    </h4>
                                         <p class="text-justify">{{excerpt}}</p><br />
                                 </article>
                                 <a href="{{url}}" class="readmore">Read More</a>
