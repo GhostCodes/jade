@@ -45,8 +45,7 @@ p {
  home page look and feel
 ###############
  */
-
-@media only screen and (max-device-width: 720px) {
+@media only screen and (max-width: 720px) {
          /*basic header */
          #header {
              position: relative;
@@ -71,7 +70,6 @@ p {
          }
 
 }
-
 
  /*basic header */
  #header {
