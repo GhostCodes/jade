@@ -33,14 +33,25 @@ p {
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 576px) {
+         .blogtitle {
+         font-size: 24px;
+         padding-top: 90px;
+         margin-left: 10%;
+         text-overflow: ellipsis;
+           white-space: nowrap;
+          overflow: hidden;
+         }
+}
+
+
+@media only screen and (max-width: 720px) {
+
 /*
 ###############
  home page look and feel
 ###############
  */
-@media only screen and (max-width: 720px) {
-
-
     .container-fluid{
         margin:0;
         height: 100%;
@@ -55,7 +66,7 @@ p {
         }
 
          .blogtitle {
-         font-size: 24px;
+         font-size: 28px;
          padding-top: 90px;
          margin-left: 10%;
          text-overflow: ellipsis;
@@ -109,9 +120,6 @@ p {
          font-size: 55px;
          padding-top: 90px;
          margin-left: 15%;
-         text-overflow: ellipsis;
-           white-space: nowrap;
-          overflow: hidden;
          }
 
          /* margins of text */
