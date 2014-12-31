@@ -17,10 +17,10 @@ Jade uses the following libraries;
 - [jQuery](https://github.com/jquery/jquery) (included within Ghost)
 
 #Preview
-This theme is currently under (heavy) development. So it changes, stuff gets added etc. The master branch usually has a version that is at least usable. 
+This theme is currently under (heavy) development. So it changes, stuff gets added etc. The master branch usually has a version that is at least usable.
 
 ![Jade Preview v0.4.1 - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31001835.png)
-Shows the homepage as it currently looks. 
+Shows the homepage as it currently looks.
 
 ![Jade Preview v0.4.1 - Author part within post](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31002026.png)
 
@@ -36,10 +36,10 @@ When you open a post and scroll to the bottom, you see what's shown above.
 To use disqus; create jade/partials/disqus.hbs. Parse the full 'disqus universal' code in there.
 
 ##Google Analytics
-To use Google Analytics, please create a file (jade/partials/analytics.hbs) and parse your full script code in it. 
+To use Google Analytics, please create a file (jade/partials/analytics.hbs) and parse your full script code in it.
 
-##Header 
-The header.hbs partial (jade/partials/header.hbs) basically consists of two parts. The first p tag is the actual header with the blog title. The second line (about div) involves a call to the modal (question mark top right), so you could remove it, but i would appreciate it if you would keep it there for reference. 
+##Header
+The header.hbs partial (jade/partials/header.hbs) basically consists of two parts. The first p tag is the actual header with the blog title. The second line (about div) involves a call to the modal (question mark top right), so you could remove it, but i would appreciate it if you would keep it there for reference.
 
 ##Modal
 The actual modal is called from inside /jade/partials/default.hbs (infomodal). Which references the file jade/partials/infomodal.hbs. If you really want to remove the modal completely you can;
