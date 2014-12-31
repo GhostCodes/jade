@@ -46,25 +46,25 @@ p {
 ###############
  */
 
-@media only screen and (max-device-width: 480px) {
- /*basic header */
- #header {
-     position: absolute;
-     background-color: #1e90ff;
-     color: #ffffff;
-     width: 100%;
+@media only screen and (max-device-width: 720px) {
+         /*basic header */
+         #header {
+             position: relative;
+             background-color: #1e90ff;
+             color: #ffffff;
+             width: 100%;
+        }
+
+         .blogtitle {
+         font-size: 28px;
+         padding-top: 90px;
+         margin-left: 15%;
+         text-overflow: ellipsis;
+           white-space: nowrap;
+          overflow: hidden;
+         }
+
 }
-
- .blogtitle {
- font-size: 28px;
- padding-top: 90px;
- margin-left: 15%;
- text-overflow: ellipsis;
-   white-space: nowrap;
-  overflow: hidden;
- }
-
-	}
 
 
  /*basic header */
@@ -116,8 +116,8 @@ p {
 
 /* margins of text */
 .row {
-  margin-left: 0px;
-  margin-right:0px;
+  margin-left: 10%;
+  margin-right:10%;
 }
 
 /* dont expand images too far in excerpt */
