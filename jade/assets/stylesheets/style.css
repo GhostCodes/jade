@@ -32,7 +32,6 @@ p {
         color: white;
 }
 
-
 #backtotop{
     position:absolute;
 }
@@ -49,18 +48,12 @@ p {
      background-color: #1e90ff;
      color: #ffffff;
      width: 100%;
-     height: 200px;
-     margin: 0;
-      text-overflow: ellipsis;
-        white-space: nowrap;
-       overflow: hidden;
- }
+}
 
  .blogtitle {
  font-size: 55px;
  padding-top: 90px;
  margin-left: 15%;
- height:auto;
  text-overflow: ellipsis;
    white-space: nowrap;
   overflow: hidden;
