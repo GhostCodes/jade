@@ -58,7 +58,7 @@ p {
          .blogtitle {
          font-size: 24px;
          padding-top: 90px;
-         margin-left: 15%;
+         margin-left: 10%;
          text-overflow: ellipsis;
            white-space: nowrap;
           overflow: hidden;
