@@ -1,11 +1,10 @@
 Jade
 ====
 
-A [Ghost](http://github.com/tryghost/ghost/) theme loosely based on a [Website](https://github.com/hxkclan/hxkclan.github.io) i made earlier.
+A [Ghost](http://github.com/tryghost/ghost/) theme loosely based on a [Website](https://github.com/hxkclan/hxkclan.github.io) i made earlier. Which was based on a mix between Google Now and [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
 #Design & features
-- Loosely based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html); so simple, no fuss, it just works.
-- No header image - it's just plain and simple
+- As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
 - Shows post date/tags in post header
 - Shows author info at bottom of each post
 - Shows pagination when available (aka when there are enough posts)
@@ -21,7 +20,11 @@ Jade uses the following libraries;
 This theme is currently under (heavy) development. So it changes, stuff gets added etc. The master branch usually has a version that is at least usable. 
 
 ![Jade Preview v0.4.1 - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31001835.png)
+Shows the homepage as it currently looks. 
+
 ![Jade Preview v0.4.1 - Author part within post](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31002026.png)
+
+When you open a post and scroll to the bottom, you see what's shown above.
 
 #Use
 - Download the package
