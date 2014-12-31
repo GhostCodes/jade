@@ -20,15 +20,11 @@ Jade uses the following libraries;
 This theme is currently under (heavy) development. So it changes, stuff gets added etc. The master branch usually has a version that is at least usable.
 
 ![Jade Preview v0.4.1 - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31001835.png)
-<<<<<<< HEAD
-![Jade Preview v0.4.1 - Author part within post](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31002026.png)
-=======
 Shows the homepage as it currently looks.
 
 ![Jade Preview v0.4.1 - Author part within post](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31002026.png)
 
 When you open a post and scroll to the bottom, you see what's shown above.
->>>>>>> develop
 
 #Use
 - Download the package
