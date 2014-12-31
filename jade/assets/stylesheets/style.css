@@ -159,9 +159,6 @@ p {
      overflow: hidden;
  }
 
-
-
-
 /* dont expand images too far in excerpt */
 article img {
     width: 100%;
@@ -170,6 +167,7 @@ article img {
 /* size of date and tags in header */
 .postdate {
     font-size: 18px;
+    margin-top: 20px;
 }
 
 /* row below posts on index */
