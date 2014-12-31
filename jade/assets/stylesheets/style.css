@@ -132,6 +132,7 @@ article {
 .readmore:hover {
     text-decoration: none;
     color: #fff;
+    background-color: #00bfff;
 }
 
 /* author info stuff at bottom of post */
