@@ -65,7 +65,7 @@ p {
    white-space: nowrap;
   overflow: hidden;
  }
- 
+
  /*
  ############
  Info modal
@@ -103,7 +103,7 @@ p {
 }
 
 /* dont expand images too far in excerpt */
-.box-main img {
+article img {
     width: 100%;
 }
 
