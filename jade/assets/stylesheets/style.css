@@ -32,8 +32,12 @@ p {
         color: white;
 }
 
-#backtotop{
-    position:absolute;
+.scroll-top{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    left: 50%;
+    margin-bottom: 20px;
 }
 
 /*
