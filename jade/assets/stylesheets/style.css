@@ -6,13 +6,6 @@ html body {
       font-size: 16px;
 }
 
-.container-fluid{
-    margin:0;
-    padding-top: 200px;
-    height: 100%;
-    margin-bottom:30px;
-}
-
 p {
     margin-left: 40px;
     margin-right:40px;
@@ -46,6 +39,13 @@ p {
 ###############
  */
 @media only screen and (max-width: 720px) {
+
+
+    .container-fluid{
+        margin:0;
+        height: 100%;
+        margin-bottom:30px;
+    }
          /*basic header */
          #header {
              position: relative;
@@ -69,25 +69,45 @@ p {
              font-size: 18px;
          }
 
+         /* margins of text */
+         .row {
+           margin-left: 0px;
+           margin-right:0px;
+         }
+
 }
 
- /*basic header */
- #header {
-     position: fixed;
-     background-color: #1e90ff;
-     color: #ffffff;
-     width: 100%;
+@media only screen and (min-width: 721px) {
+
+    .container-fluid{
+        margin:0;
+        padding-top: 200px;
+        height: 100%;
+        margin-bottom:30px;
+    }
+         /*basic header */
+         #header {
+             position: fixed;
+             background-color: #1e90ff;
+             color: #ffffff;
+             width: 100%;
+        }
+
+         .blogtitle {
+         font-size: 55px;
+         padding-top: 90px;
+         margin-left: 15%;
+         text-overflow: ellipsis;
+           white-space: nowrap;
+          overflow: hidden;
+         }
+
+         /* margins of text */
+         .row {
+           margin-left: 10%;
+           margin-right:10%;
+         }
 }
-
- .blogtitle {
- font-size: 55px;
- padding-top: 90px;
- margin-left: 15%;
- text-overflow: ellipsis;
-   white-space: nowrap;
-  overflow: hidden;
- }
-
  /*
  ############
  Info modal
@@ -118,11 +138,7 @@ p {
  }
 
 
-/* margins of text */
-.row {
-  margin-left: 10%;
-  margin-right:10%;
-}
+
 
 /* dont expand images too far in excerpt */
 article img {
