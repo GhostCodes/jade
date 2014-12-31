@@ -56,12 +56,18 @@ p {
         }
 
          .blogtitle {
-         font-size: 28px;
+         font-size: 24px;
          padding-top: 90px;
          margin-left: 15%;
          text-overflow: ellipsis;
            white-space: nowrap;
           overflow: hidden;
+         }
+
+         .text-left-title {
+             padding-left: 40px;
+             padding-top: 60px;
+             font-size: 18px;
          }
 
 }
