@@ -38,7 +38,7 @@ To use Google Analytics, please create a file (jade/partials/analytics.hbs) and 
 The header.hbs partial (jade/partials/header.hbs) basically consists of two parts. The first p tag is the actual header with the blog title. The second line (about div) involves a call to the modal (question mark top right), so you could remove it, but i would appreciate it if you would keep it there for reference. 
 
 ##Modal
-The actual modal is called from inside /jade/partials/default.hbs (infomodal). Which references the file jade/partials/modal.hbs. If you really want to remove the modal completely you can;
-- remove jade/partials/modal.hbs
+The actual modal is called from inside /jade/partials/default.hbs (infomodal). Which references the file jade/partials/infomodal.hbs. If you really want to remove the modal completely you can;
+- remove jade/partials/infomodal.hbs
 - remove the modal reference in default.hbs
 - remove the question mark from jade/partials/header.hbs
