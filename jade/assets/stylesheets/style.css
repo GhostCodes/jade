@@ -150,7 +150,8 @@ article {
 }
 
 .older-posts {
-      color: #1e90ff;
+      background: #1e90ff;
+      color: #fff;
       padding: 10px;
 }
 
@@ -160,7 +161,8 @@ article {
 }
 
 .newer-posts {
-      color: #1e90ff;
+      background: #1e90ff;
+      color: #fff;
       padding: 10px;
 }
 
