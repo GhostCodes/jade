@@ -75,6 +75,18 @@ p {
            margin-right:0px;
          }
 
+          /*
+          ############
+          Info modal
+          ############
+          */
+            /* question mark - about this theme */
+            #about {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+
 }
 
 @media only screen and (min-width: 721px) {
@@ -107,18 +119,20 @@ p {
            margin-left: 10%;
            margin-right:10%;
          }
+
+          /*
+          ############
+          Info modal
+          ############
+          */
+            /* question mark - about this theme */
+            #about {
+                position: fixed;
+                right: 10px;
+                top: 10px;
+            }
 }
- /*
- ############
- Info modal
- ############
- */
-   /* question mark - about this theme */
-   #about {
-       position: fixed;
-       right: 10px;
-       top: 10px;
-   }
+
 
 
  /*
