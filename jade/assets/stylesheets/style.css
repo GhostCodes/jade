@@ -35,7 +35,7 @@ p {
 
 @media only screen and (max-width: 576px) {
          .blogtitle {
-         font-size: 24px;
+         font-size: 32px;
          padding-top: 90px;
          margin-left: 10%;
          text-overflow: ellipsis;
@@ -66,9 +66,9 @@ p {
         }
 
          .blogtitle {
-         font-size: 28px;
+         font-size: 42px;
          padding-top: 90px;
-         margin-left: 10%;
+         margin-left: 5%;
          text-overflow: ellipsis;
            white-space: nowrap;
           overflow: hidden;
