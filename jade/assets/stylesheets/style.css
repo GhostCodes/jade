@@ -193,49 +193,45 @@ article {
               overflow: hidden;
          }
 
-
          p {
              margin-left: 10px;
              margin-right:10px;
          }
 
-             .container-fluid{
-                 margin:0;
-                 height: 100%;
-                 margin-bottom:30px;
-             }
+         .container-fluid{
+             margin:0;
+             height: 100%;
+             margin-bottom:30px;
+         }
 
-                  .text-left-title {
-                      padding-left: 40px;
-                      padding-top: 20px;
-                      font-size: 18px;
-                  }
+          .text-left-title {
+              padding-left: 40px;
+              padding-top: 20px;
+              font-size: 18px;
+          }
 
-                  /* margins of text */
-                  .row {
-                     margin-top: 70px;
-                     margin-left: 2px;
-                     margin-right:2px;
-                  }
+          /* margins of text */
+          .row {
+             margin-top: 70px;
+             margin-left: 2px;
+             margin-right:2px;
+          }
 
-                  iframe {
-                      width: 500px;
-                      max-width: 100%;
-                      height: auto;
-                  }
+          iframe {
+              width: 500px;
+              max-width: 100%;
+              height: auto;
+          }
 
-                 blockquote > p {
-                     overflow:auto;
-                  }
+         blockquote > p {
+             overflow:auto;
+          }
 }
 
 @media only screen and (min-width: 721px) {
 
     .container-fluid{
-        margin:0;
         padding-top: 150px;
-        height: 100%;
-        margin-bottom:30px;
     }
          /* margins of text */
          .row {
