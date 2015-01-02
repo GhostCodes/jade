@@ -5,6 +5,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme loosely based on a [Website](
 
 #Design & features
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
+- Header becomes smaller when you start scrolling (material design FTW!)
 - Shows post date/tags in post header
 - Shows author info at bottom of each post
 - Shows pagination when available (aka when there are enough posts)
@@ -15,12 +16,16 @@ A [Ghost](http://github.com/tryghost/ghost/) theme loosely based on a [Website](
 Jade uses the following libraries;
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [jQuery](https://github.com/jquery/jquery) (included within Ghost)
+- [Classie.js](https://github.com/desandro/classie)
 
 #Preview
 This theme is currently under (heavy) development. So it changes, stuff gets added etc. The master branch usually has a version that is at least usable.
 
-![Jade Preview v0.4.1 - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31001835.png)
-Shows the homepage as it currently looks.
+![Jade Preview v0.7.2 - Home](http://img.photobucket.com/albums/v385/hxkclan/github/Jade%20for%20Ghost/Screenshotfrom2015-01-02170638.png)
+Shows the homepage as it currently looks. When you start scrolling the header becomes smaller. 
+
+![Jade Preview v0.7.2 - Home - Small header](http://img.photobucket.com/albums/v385/hxkclan/github/Jade%20for%20Ghost/Screenshotfrom2015-01-02170644.png)
+
 
 ![Jade Preview v0.4.1 - Author part within post](http://img.photobucket.com/albums/v385/hxkclan/github/Screenshotfrom2014-12-31002026.png)
 
