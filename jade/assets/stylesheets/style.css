@@ -71,6 +71,10 @@ Info modal
 #about > a {
     color: #00bfff;
 }
+
+#about > a:hover {
+    color: black;
+}
  /*
  ###############
  Post related
