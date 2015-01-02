@@ -131,12 +131,7 @@ header.smaller  .blogtitle {
           Info modal
           ############
           */
-            /* question mark - about this theme */
-            #about {
-                position: absolute;
-                right: 10px;
-                top: 10px;
-            }
+
 
 }
 
@@ -153,21 +148,19 @@ header.smaller  .blogtitle {
            margin-left: 10%;
            margin-right:10%;
          }
-
-          /*
-          ############
-          Info modal
-          ############
-          */
-            /* question mark - about this theme */
-            #about {
-                position: fixed;
-                right: 10px;
-                top: 10px;
-            }
 }
 
-
+/*
+############
+Info modal
+############
+*/
+/* question mark - about this theme */
+#about {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
 
  /*
  ###############
