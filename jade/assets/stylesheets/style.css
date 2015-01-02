@@ -204,6 +204,10 @@ article {
     text-align: center;
 }
 
+.authorimage > img {
+    width: auto;
+}
+
 /* pagination */
 #pagination {
     text-align: center;
