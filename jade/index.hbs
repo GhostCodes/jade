@@ -2,7 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
                     {{#foreach posts}}
                                     <article>
-                                    <h4 class="text-left-title modal-post"></i><a href="{{url}}">{{title}}</a>
+                                    <h4 class="text-left-title posttheme"></i><a href="{{url}}">{{title}}</a>
                                     <p class="text-right postdate">{{date format='YYYY-MM-DD'}}</p>
                                     {{#if tags}}
                                         <p class="text-right postdate">
@@ -12,7 +12,7 @@
                                     </h4>
                                         <p class="text-justify">{{excerpt}}...</p><br />
 
-                                <a href="{{url}}" class="readmore">Read More</a>
+                                <a href="{{url}}" class="posttheme">Read More</a>
                                 </article>
                                 <hr>
                     {{/foreach}}
