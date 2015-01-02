@@ -218,7 +218,7 @@ article {
                      margin-right:10px;
                   }
 
-                  iframe {
+                  iframe, blockquote {
                       width: 500px;
                       max-width: 100%;
                       height: auto;
