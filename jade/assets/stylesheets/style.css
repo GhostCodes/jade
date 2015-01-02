@@ -94,12 +94,16 @@ Info modal
       padding-bottom: 5px;
  }
 
- .posttheme-button, .posttheme-button:hover {
+ .posttheme-button  {
          float: right;
          color: #fff;
          margin-top: -20px;
          padding: 10px;
          background-color: #1e90ff;
+ }
+
+ .posttheme-button:hover {
+     background-color: #00bfff;
  }
 
  /* size of date and tags in header */
