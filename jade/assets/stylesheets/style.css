@@ -214,8 +214,8 @@ article {
                   /* margins of text */
                   .row {
                      margin-top: 70px;
-                     margin-left: 10px;
-                     margin-right:10px;
+                     margin-left: 2px;
+                     margin-right:2px;
                   }
 
                   iframe {
@@ -225,8 +225,7 @@ article {
                   }
 
                  blockquote > p {
-                      width: 500px;
-                      height: auto;
+                     overflow:auto;
                   }
 }
 
