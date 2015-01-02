@@ -1,5 +1,4 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-
 /* general stuff */
 html body {
       font-family: 'Raleway', sans-serif;
@@ -22,12 +21,12 @@ p {
         top: 0;
         left: 0;
         z-index: 999;
-        background-color: #1e90ff;
         -webkit-transition: height 1.0s;
         -moz-transition: height 1.0s;
         -ms-transition: height 1.0s;
         -o-transition: height 1.0s;
         transition: height 1.0s;
+        background-color: #1e90ff;
 }
 
 /* title in regular mode */
@@ -47,13 +46,125 @@ header.smaller {
 
 /* new blog title size when in small version */
 header.smaller  .blogtitle {
-        color: white;
-         margin-top: 10px;
+        margin-top: 10px;
        text-overflow: ellipsis;
       white-space: nowrap;
        white-space: nowrap;
      overflow: hidden;
 }
+
+
+#headerurl{
+    color: white;
+}
+
+
+/*
+############
+Info modal
+############
+*/
+/* question mark - about this theme */
+#about {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+ /*
+ ###############
+ Post related
+ ##############
+ */
+
+.text-left-title {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+  /* post headers */
+  .posttheme {
+      background-color: #1e90ff;
+      color: white;
+      padding-bottom: 5px;
+ }
+
+ .posttheme-button, .posttheme-button:hover {
+         float: right;
+         color: #fff;
+         margin-top: -20px;
+         padding: 10px;
+         background-color: #1e90ff;
+ }
+
+ /* size of date and tags in header */
+ .postdate {
+     font-size: 16px;
+     margin-top: 20px;
+ }
+
+ /* url post header */
+ .text-left-title a {
+         color: white;
+ }
+
+
+
+/* dont expand images too far in excerpt */
+article img {
+    width: 100%;
+}
+
+
+/* row below posts on index */
+hr {
+    border-width: 3px;
+    color: #708090;
+}
+
+/* seperate articles a bit more */
+article {
+    margin-bottom: 35px;
+}
+
+/* author info stuff at bottom of post */
+.postfooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.authorimage > img {
+    width: auto;
+}
+
+/* pagination */
+#pagination {
+    text-align: center;
+    bottom: 0;
+}
+
+.older-posts, .newer-posts {
+      background: #1e90ff;
+      color: #fff;
+      padding: 10px;
+}
+
+.older-posts:hover, .newer-posts:hover {
+        color: #fff;
+        background-color: #00bfff;
+}
+
+.scroll-top{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    left: 50%;
+    margin-bottom: 20px;
+}
+
+
 
 /* fix header for mobile devices */
 @media only screen and (max-width: 720px) {
@@ -79,35 +190,12 @@ header.smaller  .blogtitle {
          /* new blog title size when in small version */
          header.smaller  .blogtitle {
              margin-left: 10px;
-         margin-top: 35px;
-                 color: white;
+             margin-top: 35px;
                 text-overflow: ellipsis;
                white-space: nowrap;
                 white-space: nowrap;
               overflow: hidden;
          }
-}
-
-#headerurl{
-    color: white;
-}
-
-.text-left-title {
-    padding-left: 40px;
-    padding-top: 20px;
-    font-size: 28px;
-}
-
-.text-left-title a {
-        color: white;
-}
-
-.scroll-top{
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    left: 50%;
-    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -141,12 +229,7 @@ header.smaller  .blogtitle {
           Info modal
           ############
           */
-            /* question mark - about this theme */
-            #about {
-                position: absolute;
-                right: 10px;
-                top: 10px;
-            }
+
 
 }
 
@@ -163,115 +246,4 @@ header.smaller  .blogtitle {
            margin-left: 10%;
            margin-right:10%;
          }
-
-          /*
-          ############
-          Info modal
-          ############
-          */
-            /* question mark - about this theme */
-            #about {
-                position: fixed;
-                right: 10px;
-                top: 10px;
-            }
-}
-
-
-
- /*
- ###############
- Post related
- ##############
- */
-
-
- /* post headers */
- .modal-post {
-     background-color: #1e90ff;
-     color: #ffffff;
-     height: 100%;
-     overflow: hidden;
- }
-
-/* dont expand images too far in excerpt */
-article img {
-    width: 100%;
-}
-
-/* size of date and tags in header */
-.postdate {
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-/* row below posts on index */
-hr {
-    margin-top: 25px;
-    margin-bottom: 65px;
-    border-width: 3px;
-    color: #708090;
-}
-
-/* seperate articles a bit more */
-article {
-    margin-bottom: 35px;
-}
-
-/* read more link */
-.readmore {
-    float: right;
-    color: #fff;
-    background-color: #1e90ff;
-    padding: 10px;
-    margin-top: -15px;
-    text-align: center;
-
-}
-
-.readmore:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: #00bfff;
-}
-
-/* author info stuff at bottom of post */
-.postfooter{
-    background: #1e90ff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    text-align: center;
-}
-
-.authorimage > img {
-    width: auto;
-}
-
-/* pagination */
-#pagination {
-    text-align: center;
-    bottom: 0;
-}
-
-.older-posts {
-      background: #1e90ff;
-      color: #fff;
-      padding: 10px;
-}
-
-.older-posts:hover {
-        color: #fff;
-        background-color: #00bfff;
-}
-
-.newer-posts {
-      background: #1e90ff;
-      color: #fff;
-      padding: 10px;
-}
-
-.newer-posts:hover {
-        color: #fff;
-        background-color: #00bfff;
 }

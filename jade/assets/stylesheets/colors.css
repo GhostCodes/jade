@@ -1,0 +1,35 @@
+/* #######
+Header
+#######*/
+header {
+            background-color: #1e90ff;
+}
+
+
+#headerurl{
+    color: white;
+}
+
+/* #######
+    Post
+#######*/
+
+ /* post headers */
+ .posttheme {
+     background-color: #1e90ff;
+     color: white;
+     padding: 10px;
+}
+
+.posttheme-button, .posttheme-button:hover {
+        float: right;
+        color: #fff;
+        margin-top: -20px;
+        padding: 10px;
+        background-color: #1e90ff;
+}
+
+/* url post header */
+.text-left-title a {
+        color: white;
+}
