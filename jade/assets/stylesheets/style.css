@@ -1,5 +1,5 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-
+@import url('colors.css');
 /* general stuff */
 html body {
       font-family: 'Raleway', sans-serif;
@@ -22,7 +22,6 @@ p {
         top: 0;
         left: 0;
         z-index: 999;
-        background-color: #1e90ff;
         -webkit-transition: height 1.0s;
         -moz-transition: height 1.0s;
         -ms-transition: height 1.0s;
@@ -47,8 +46,7 @@ header.smaller {
 
 /* new blog title size when in small version */
 header.smaller  .blogtitle {
-        color: white;
-         margin-top: 10px;
+        margin-top: 10px;
        text-overflow: ellipsis;
       white-space: nowrap;
        white-space: nowrap;
