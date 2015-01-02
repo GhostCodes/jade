@@ -27,6 +27,7 @@ html body {
 /* title in regular mode */
 header  .blogtitle {
          font-size: 48px;
+         margin-left: 5%;
          margin-top: 35px;
           text-overflow: ellipsis;
          white-space: nowrap;
