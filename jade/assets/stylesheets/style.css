@@ -5,11 +5,6 @@ html body {
       font-size: 16px;
 }
 
-p {
-    margin-left: 40px;
-    margin-right:40px;
-}
-
 /* ##########################
     Header - 'advanced'
 #########################*/
@@ -79,7 +74,7 @@ Info modal
 
 .text-left-title {
     padding-left: 40px;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 28px;
 }
 
@@ -101,6 +96,7 @@ Info modal
  /* size of date and tags in header */
  .postdate {
      font-size: 16px;
+     margin-right: 5px;
  }
 
  /* url post header */
@@ -195,41 +191,31 @@ article {
                 white-space: nowrap;
               overflow: hidden;
          }
-}
 
-@media only screen and (max-width: 720px) {
 
-/*
-###############
- home page look and feel
-###############
- */
-    .container-fluid{
-        margin:0;
-        height: 100%;
-        margin-bottom:30px;
-    }
-
-         .text-left-title {
-             padding-left: 40px;
-             padding-top: 60px;
-             font-size: 18px;
+         p {
+             margin-left: 10px;
+             margin-right:10px;
          }
 
-         /* margins of text */
-         .row {
-            margin-top: 70px;
-           margin-left: 0px;
-           margin-right:0px;
-         }
+             .container-fluid{
+                 margin:0;
+                 height: 100%;
+                 margin-bottom:30px;
+             }
 
-          /*
-          ############
-          Info modal
-          ############
-          */
+                  .text-left-title {
+                      padding-left: 40px;
+                      padding-top: 20px;
+                      font-size: 18px;
+                  }
 
-
+                  /* margins of text */
+                  .row {
+                     margin-top: 70px;
+                    margin-left: 0px;
+                    margin-right:0px;
+                  }
 }
 
 @media only screen and (min-width: 721px) {
