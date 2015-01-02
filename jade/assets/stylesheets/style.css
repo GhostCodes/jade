@@ -218,9 +218,14 @@ article {
                      margin-right:10px;
                   }
 
-                  iframe, blockquote {
+                  iframe {
                       width: 500px;
                       max-width: 100%;
+                      height: auto;
+                  }
+
+                 blockquote > p {
+                      width: 500px;
                       height: auto;
                   }
 }
