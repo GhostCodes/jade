@@ -33,7 +33,7 @@ p {
 /* title in regular mode */
 header  .blogtitle {
          font-size: 55px;
-         margin-top: 50px;
+         margin-top: 30px;
          }
 
 /* new height when in smaller version */
@@ -45,7 +45,7 @@ header.smaller {
 header.smaller  .blogtitle {
         color: white;
          font-size: 46px;
-         margin-top: 20px;
+         margin-top: 10px;
 }
 
 
