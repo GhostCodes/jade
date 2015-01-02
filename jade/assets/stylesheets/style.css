@@ -104,6 +104,7 @@ Info modal
 
  .posttheme-button:hover {
      background-color: #00bfff;
+     color: white;
  }
 
  /* size of date and tags in header */
