@@ -1,7 +1,9 @@
 Jade
 ====
+Note: there is also a [Wordpress version](https://github.com/hxkclan/jade-for-wordpress)
 
-A [Ghost](http://github.com/tryghost/ghost/) theme loosely based on a [Website](https://github.com/hxkclan/hxkclan.github.io) i made earlier. Which was based on a mix between Google Now and [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
+
+A [Ghost](http://github.com/tryghost/ghost/) theme which is based on [Material Design principles](http://www.google.com/design/spec/what-is-material/environment.html).
 
 #Design & features
 - As it's material design based - it's simple, no header images and stuff, no fuss, it just works.
