@@ -53,3 +53,6 @@ The actual modal is called from inside /jade/partials/default.hbs (infomodal). W
 - remove jade/partials/infomodal.hbs
 - remove the modal reference in default.hbs
 - remove the question mark from jade/partials/header.hbs
+
+##Social
+I've added the ability to add social links to the header. In the jade/partials/social.hbs you can setup your own social media links.You can use the Font-Awesome icons that i use, it has more icons as you can see [here](http://fortawesome.github.io/Font-Awesome/icons/). Just simply add a new line and/or replace the current ones. 
