@@ -35,6 +35,11 @@ header  .blogtitle {
         overflow: hidden;
          }
 
+header .blogdescription {
+    color: white;
+    margin-left: 7%;
+}
+
 /* new height when in smaller version */
 header.smaller {
     height: 75px;
@@ -48,6 +53,16 @@ header.smaller  .blogtitle {
        white-space: nowrap;
      overflow: hidden;
 }
+
+header.smaller .blogdescription {
+    position: absolute;
+    left: 150px;
+    top: 45px;
+    color: white;
+    margin-left: 7%;
+}
+
+
 
 #headerurl{
     color: white;
