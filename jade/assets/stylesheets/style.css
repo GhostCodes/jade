@@ -80,6 +80,15 @@ Info modal
     top: 10px;
     right: 45px;
 }
+
+#socialhead > a {
+    color: #00bfff;
+}
+
+#socialhead > a:hover {
+    color: black;
+}
+
  /*
  ###############
  Post related
