@@ -38,6 +38,9 @@ header  .blogtitle {
 header .blogdescription {
     color: white;
     margin-left: 7%;
+    position: absolute;
+    left: 150px;
+    top: 55px;
 }
 
 /* new height when in smaller version */
@@ -47,7 +50,7 @@ header.smaller {
 
 /* new blog title size when in small version */
 header.smaller  .blogtitle {
-        margin-top: 10px;
+        margin-top: 5px;
        text-overflow: ellipsis;
       white-space: nowrap;
        white-space: nowrap;
@@ -57,7 +60,7 @@ header.smaller  .blogtitle {
 header.smaller .blogdescription {
     position: absolute;
     left: 150px;
-    top: 45px;
+    top: 55px;
     color: white;
     margin-left: 7%;
 }
