@@ -238,6 +238,9 @@ hr {
               overflow: hidden;
          }
 
+                header .blogdescription {
+                    display:none;
+                }
          p {
              margin-left: 10px;
              margin-right:10px;
