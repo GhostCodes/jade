@@ -49,11 +49,9 @@ header.smaller  .blogtitle {
      overflow: hidden;
 }
 
-
 #headerurl{
     color: white;
 }
-
 
 /*
 ############
@@ -75,6 +73,22 @@ Info modal
 #about > a:hover {
     color: black;
 }
+
+/* social part in the header */
+#socialhead {
+    position:absolute;
+    top: 10px;
+    right: 45px;
+}
+
+#socialhead > a {
+    color: #00bfff;
+}
+
+#socialhead > a:hover {
+    color: black;
+}
+
  /*
  ###############
  Post related
